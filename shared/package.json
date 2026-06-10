@@ -1,0 +1,11 @@
+{
+  "name": "@kabo/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./types": "./types.ts",
+    "./constants": "./constants.ts",
+    "./events": "./events.ts"
+  }
+}
