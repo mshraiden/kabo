@@ -1,5 +1,15 @@
 # KABO — Multiplayer Card Game: Implementation Plan
 
+## Status
+
+- **Repo created:** [github.com/mshraiden/kabo](https://github.com/mshraiden/kabo) (public)
+- **Skeleton scaffolded** on `main` per the Project Structure below — workspaces, configs (`package.json`, `tsconfig.*`, `vite.config.ts`, `index.html`) are real/functional; all source files (`.ts`/`.css`) are intentionally empty placeholders for rules + UI to be filled in later
+- A copy of this plan lives in the repo as `PLAN.md`
+- Test push verified on `client/src/animation/cardAnimator.ts` (commit `328c2f0`)
+- **Next:** fill in `shared/` types/constants/events, then start on Build Sequence step 2 (server bootstrap)
+
+---
+
 ## Context
 
 Building a custom web-based card game called KABO from scratch. The user has their own set of rules (not standard KABO). The game needs real-time 4-player multiplayer with shareable room codes so friends can join from anywhere — similar to how Gartic Phone or skribbl.io work. Card visuals should be fluid and art-quality (like Uno online). Rules are decoupled from transport so they can be added after the core infrastructure is built.
